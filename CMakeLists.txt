@@ -92,7 +92,7 @@ else()
     set(TBB_ARCH 64)
 endif()
 
-option(TBB_TEST "Enable testing" ON)
+option(TBB_TEST "Enable testing" OFF)
 option(TBB_EXAMPLES "Enable examples" OFF)
 option(TBB_STRICT "Treat compiler warnings as errors" ON)
 option(TBB_WINDOWS_DRIVER "Build as Universal Windows Driver (UWD)" OFF)
